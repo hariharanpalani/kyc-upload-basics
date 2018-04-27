@@ -5,7 +5,7 @@ import { environment } from '../environments/environment';
 @Injectable()
 export class KycInstaService {
 
-    constructor(private http: HttpClient) { console.log(environment.appUrl); }
+    constructor(private http: HttpClient) { }
 
     predict(data: any) {
         const httpOptions = {

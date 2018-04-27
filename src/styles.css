@@ -71,7 +71,7 @@ html {
     height: 4px;
     background: greenyellow;
     position: relative;
-    animation: scanner 2s infinite;
+    animation: scanner 1s infinite;
     animation-direction: alternate;
 }
 

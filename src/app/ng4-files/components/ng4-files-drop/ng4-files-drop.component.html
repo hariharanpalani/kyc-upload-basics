@@ -5,12 +5,11 @@
                 </a>
                 <label class="label">Drag your images here</label>
         </div>
-        <div (click)="console.log('sdsds')">
-        <input type="file"
-        class="ng4-files-upload-btn"
-        [multiple]="true"
-        #file
-        accept="{{acceptExtensions}}"
-        (change)="onChange(file.files); file.value=''" />
+        <div>
+                <input type="file"
+                class="ng4-files-upload-btn"
+                [multiple]="true"
+                #file
+                (change)="onChange(file.files); file.value=''" />
         </div>
 </ng-container>
